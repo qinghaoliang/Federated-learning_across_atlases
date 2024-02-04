@@ -22,7 +22,7 @@ python federated.py -t shen -task qa_pass
 
 ### Baseline comparison (single site)
 ```
-python federated_site.py -t shen -task qa_pass
+python single_site.py -t shen -task qa_pass
 ```
 
 
