@@ -13,6 +13,10 @@ from model_pytorch import dnn_3l
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 def main(args):
+    """Training the models at each site separately
+    The connectomes at each site are transformed 
+    to the target atlas
+    """
     atlas_t = args.t
     task = args.task
     sd = args.sd
